@@ -31,9 +31,9 @@ Drills Part 2
 Processes, ports
 
 1. List your browser's process ids (pid) and parent process ids(ppid)
-
+    pstree -hp
 2. Stop the browser application from the command line
-
+  kill pid(chrome)
 3. List the top 3 processes by CPU usage.
    ps -eo pid,ppid,cmd,%cpu|head -4                                                                                
 
